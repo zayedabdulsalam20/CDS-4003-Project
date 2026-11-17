@@ -1,0 +1,43 @@
+{
+  "comparison": [
+    {
+      "model": "Linear Regression",
+      "MAE_train": 5511.754,
+      "MAE_test": 5551.607,
+      "RMSE_test": 8493.85,
+      "R2_train": 0.622,
+      "R2_test": 0.622
+    },
+    {
+      "model": "Decision Tree",
+      "MAE_train": 30.517,
+      "MAE_test": 4100.15,
+      "RMSE_test": 7513.252,
+      "R2_train": 1.0,
+      "R2_test": 0.704
+    },
+    {
+      "model": "Random Forest",
+      "MAE_train": 2655.807,
+      "MAE_test": 3511.197,
+      "RMSE_test": 5908.827,
+      "R2_train": 0.897,
+      "R2_test": 0.817
+    },
+    {
+      "model": "Random Forest (tuned)",
+      "MAE_train": 2646.044,
+      "MAE_test": 3500.271,
+      "RMSE_test": 5900.896,
+      "R2_train": 0.897,
+      "R2_test": 0.818
+    }
+  ],
+  "final": {
+    "MAE": 3438.966874235121,
+    "RMSE": 5817.116587990477,
+    "R2": 0.8226780104956565
+  },
+  "rows_raw": 295451,
+  "rows_clean": 180732
+}
