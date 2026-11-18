@@ -2,7 +2,7 @@
 
 CDS-4003 Project · CRISP-DM · Deployed with Streamlit
 
-**Live app:** _add the link here after deployment_
+**Live app:** https://cds-4003-project-fnyyvaxzh9xnbnmj9uyppf.streamlit.app/
 **Dataset:** [Craigslist Cars & Trucks on Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
 
 ## What's in this repo
@@ -104,10 +104,9 @@ We saved the pipeline with `joblib` and tested it on one example car: a 2016 Toy
 
 Then we built the Streamlit app. The main tab is the price predictor. There are also tabs for price analysis, car features, prices by state, model results, and a data table, plus some filters in the sidebar. Finally, we pushed everything to this GitHub repo and deployed the app on Streamlit Community Cloud.
 
-## Run it yourself
 
 ```bash
-git clone https://github.com/<your-username>/CDS-4003-Project.git
+git clone https://github.com/zayedabdulsalam20/CDS-4003-Project.git
 cd CDS-4003-Project
 pip install -r requirements.txt
 streamlit run app.py
